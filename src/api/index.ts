@@ -8,7 +8,7 @@ const api = {
   item: 'https://api.hnpwa.com/v0/item/'
 };
 
-interface NewsItem {
+export interface NewsItem {
   id: number,
   title: string,
   points: number,
